@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        @import "modern-normalize";
+
+        :root {
+        line-height: 1.5;
+        }
+
+        h1, h2, h3, h4, h5, figure, p, ol, ul {
+        margin: 0;
+        }
+
+        ol[role="list"], ul[role="list"] {
+        list-style: none;
+        padding-inline: 0;
+        }
+
+        h1, h2, h3, h4, h5 {
+        font-size: inherit;
+        font-weight: inherit;
+        }
+
+        img {
+        display: block;
+        max-inline-size: 100%;
+        }
+
+
+        body {
+            padding: 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+            height: 100vh;
+        }
+
+        .side-bar {
+            background-color: #1c93d3;
+        }
+
+        .main-area {
+            background-color: #e1e8f0;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="side-bar">
+
+        </div>
+        <div class="main-area">
+            <div class="header"></div>
+            <div class="projects"></div>
+        </div>
+    </div>
+
+</body>
+</html>
